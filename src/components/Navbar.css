@@ -1,4 +1,25 @@
-.header{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+.nav-container{
+    padding: 0%;
+    margin-left: 2%;
+}
+.color-nav{
+    padding-top: 0%;
+    padding-bottom: 0%;
+    background-color: #1c1c1c;
+}
+.logo{
+        display: block;
+        font-size: 1.59em;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+        color: #ccc;
+}
+
+.about{
+        font-weight: lighter;
+        font-size: 23px;
+        color: #ccc;
 }

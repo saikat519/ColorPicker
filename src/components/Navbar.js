@@ -5,17 +5,17 @@ import "./Navbar.css";
 
 function navbar() {
     return (
-        <div >
-        <Navbar bg="dark" variant="dark" className="header">
-        <Container className="Cont">
-            <Navbar.Brand className="txt">ColourPicker</Navbar.Brand>
+        <>
+        <Navbar className="color-nav">
+        <Container className="nav-container">
+            <h3 className="logo">ColourPicker</h3>
             <Nav className="d-flex row-reverse">
             
-            <Nav.Link >Group G</Nav.Link>
+            <h3 className="about">Group G</h3>
             </Nav>
         </Container>
         </Navbar>
-        </div>
+        </>
     )
 }
 
