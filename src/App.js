@@ -9,7 +9,10 @@ function App() {
         <p>
           Hello from Group G
         </p>
-        
+        <p>
+          Lets Build Color Picker
+        </p>
+
         <a
           className="App-link"
           href="https://reactjs.org"
